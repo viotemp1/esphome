@@ -26,6 +26,7 @@ const uint8_t GREE_FAN_1 = 0x10;
 const uint8_t GREE_FAN_2 = 0x20;
 const uint8_t GREE_FAN_3 = 0x30;
 const uint8_t GREE_FAN_TURBO = 0x80;
+const uint8_t GREE_FAN_QUIET = 0x90;
 
 // IR Transmission
 const uint32_t GREE_IR_FREQUENCY = 38000;
