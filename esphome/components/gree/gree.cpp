@@ -123,6 +123,8 @@ uint8_t GreeClimate::fan_speed_() {
       return GREE_FAN_2;
     case climate::CLIMATE_FAN_HIGH:
       return GREE_FAN_3;
+    case climate::CLIMATE_FAN_QUIET:
+      return GREE_FAN_QUIET;
     case climate::CLIMATE_FAN_AUTO:
     default:
       return GREE_FAN_AUTO;
